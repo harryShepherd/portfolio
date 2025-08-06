@@ -1,7 +1,5 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from 'react';
 import { RecycleFull } from '@react95/icons';
-import { Modal } from '@react95/core'
 
 function Desktop() {
     return (
