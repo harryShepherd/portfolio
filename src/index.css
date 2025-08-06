@@ -2,3 +2,26 @@ body
 {
   background-color: #008080;
 }
+
+.desktop-icons {
+  width: 70px;
+  height: 70px;
+  margin: 4px;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  user-select: none;
+}
+
+.desktop-icons p {
+  text-align: center;
+}
+
+.active-icon {
+  background: rgba(12, 0, 120, 0.6);
+  border: 1px white dotted;
+}
+
+.inactive-icon {
+  text-decoration: none;
+}
