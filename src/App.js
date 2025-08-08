@@ -5,14 +5,14 @@ import { createGlobalStyle } from 'styled-components';
 import '@react95/icons/icons.css';
 import Taskbar from './Taskbar';
 import Desktop from './Desktop';
-import Popup from './PopupAlert';
+import DocumentsModal from './PopupAlert';
 
 function App() {
   return (
     <div>
       <Desktop />
       <Taskbar />
-      <Popup />
+      <DocumentsModal />
     </div>
   );
 }

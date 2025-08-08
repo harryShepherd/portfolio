@@ -3,9 +3,17 @@ body
   background-color: #008080;
 }
 
+.documents-icons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  color: black;
+}
+
 .desktop-icons {
-  width: 70px;
-  height: 70px;
+  width: 90px;
+  height: 90px;
   margin: 4px;
   text-align: center;
   color: white;
@@ -18,10 +26,19 @@ body
 }
 
 .active-icon {
-  background: rgba(12, 0, 120, 0.6);
+  background: rgba(12, 0, 120, 1);
+  color: white;
   border: 1px white dotted;
+  padding: 10px;
+  width: 90px;
+  height: 90px;
+  margin: 4px;
 }
 
 .inactive-icon {
   text-decoration: none;
+  padding: 10px;
+  width: 90px;
+  height: 90px;
+  margin: 4px;
 }
