@@ -26,10 +26,12 @@ function DocumentsModal() {
           }, {
             name: 'Edit',
             list: <List width="200px">
+                        <List.Item>Edit</List.Item>
                       </List>
           }, {
             name: 'Help',
             list: <List width="200px">
+                        <List.Item>Help</List.Item>
                       </List>
           }
           ]}>
